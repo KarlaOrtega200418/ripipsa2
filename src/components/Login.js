@@ -43,7 +43,6 @@ function Login() {
                     {error && <p>{error}</p>}
                 </form>
                 <div className="links">
-                    <a href="#forgot">Forgot Password?</a>
                     <Link to="/register">New? Register Here</Link>
                 </div>
             </div>
