@@ -15,19 +15,6 @@
 	font-weight: 400;
 }
 
-.botonAR {
-  width: 100%;
-  padding: 15px;
-  border: none;
-  border-radius: 10px;
-  background-color: #08f; /* Vibrant login button color */
-  color: #fff;
-  cursor: pointer;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
-  margin-bottom: 17px; /* Ajuste el margen inferior para dar espacio al botón "Notas del proyecto" */
-}
-
 
 /************ Default Css ************/
 * {
@@ -394,7 +381,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center; /* Ensure text is centered horizontally */
   width: 100%; /* Span the full width of the card to maintain center alignment regardless of text length */
   color: white; /* Maintain text color */
-  opacity: 1; /* Initially hidden until hover */
+  opacity: 0; /* Initially hidden until hover */
   visibility: hidden; /* Hidden until hover */
   transition: opacity 0.3s, visibility 0.3s; /* Smooth transition for hover effects */
 }
@@ -429,22 +416,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-
-.notas-button {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #131313; /* Borde delgado de color #131313 */
-  border-radius: 10px;
-  background-color: #08f; /* Color de fondo del botón */
-  color: #fff; /* Color del texto */
-  cursor: pointer;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
-}
-
-
-
-
-
 
 
