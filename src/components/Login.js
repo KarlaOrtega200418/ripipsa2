@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import '../Login.css';
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import Cookies from 'js-cookie';
+
+
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -15,6 +18,8 @@ function Login() {
             const { data } = await axios.post('http://localhost:2023/api/validateUser', { username, password });
             if (data.success) {
                 localStorage.setItem('userData', JSON.stringify(data.userData));
+                //cookie
+                Cookies.set('user_id', data.userData.id);
                 navigate(`/projects/${data.userData.id}`);
                  // Redirección a la página de inicio solo si la autenticación es exitosa
             } else {
@@ -43,6 +48,7 @@ function Login() {
                     {error && <p>{error}</p>}
                 </form>
                 <div className="links">
+                    <a href="#forgot">Forgot Password?</a>
                     <Link to="/register">New? Register Here</Link>
                 </div>
             </div>
