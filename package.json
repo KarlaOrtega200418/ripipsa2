@@ -11,9 +11,15 @@
     "animate.css": "^4.1.1",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
+<<<<<<< HEAD
+=======
+    "cors": "^2.8.5",
+>>>>>>> be1d74e82c0c4f29b429a7f4058882bfdd1387f2
+    "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.2.0",
     "react-on-screen": "^2.1.1",
     "react-router-dom": "^6.22.3",
     "react-router-hash-link": "^2.4.3",
