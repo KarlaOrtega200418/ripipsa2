@@ -25,7 +25,9 @@
   cursor: pointer;
   font-size: 18px;
   transition: background-color 0.3s ease;
+  margin-bottom: 17px; /* Ajuste el margen inferior para dar espacio al botón "Notas del proyecto" */
 }
+
 
 /************ Default Css ************/
 * {
@@ -428,5 +430,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.notas-button {
+  width: 30%;
+  padding: 1rem;
+  border: 1px solid #131313; /* Borde delgado de color #131313 */
+  border-radius: 10px;
+  background-color: #08f; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  cursor: pointer;
+  font-size: 18px;
+  top: 40px;
+  transition: background-color 0.3s
+  
+}
 
-
+.return-button {
+  width: 20%;
+  padding: 1rem;
+  border: 1px solid #131313;
+  border-radius: 10px;
+  background-color: #08f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  position: fixed;
+  top: 9.1%; /* Adjust the vertical position relative to the viewport height */
+  right: 0%; /* Adjust the horizontal position relative to the viewport width */
+  transition: background-color 0.3s;
+}
